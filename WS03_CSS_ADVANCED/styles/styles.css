@@ -95,3 +95,38 @@ input[type="submit"]:hover {
       .pseudo-list li:nth-child(even) {
         background-color: white;
       }
+
+      .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+
+      .quote {
+        position: relative;
+        left: 13px;
+        top: -12px;
+        padding-left: 25px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: -10px;
+        color: blueviolet;
+      }
+
+      .quote::after {
+        content: '”';
+        font-size: 40px;
+        position: absolute;
+        right: 1049px;
+        bottom: -20px;
+        color: blueviolet;
+      }
