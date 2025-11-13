@@ -89,7 +89,7 @@ input[type="submit"]:hover {
       }
 
       .pseudo-list li:nth-child(odd) {
-        background-color: lightgray;
+        background-color: rgb(181, 147, 212);
       }
       
       .pseudo-list li:nth-child(even) {
