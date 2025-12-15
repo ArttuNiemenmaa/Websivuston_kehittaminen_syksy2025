@@ -180,6 +180,11 @@
                 font-size: 2rem;
             }
         }
+        /* Validator-friendly override for Font Awesome rotate-by */
+        /* Use 0deg as fallback instead of 'none' so W3C validator accepts the value */
+        .fa-rotate-by {
+            transform: rotate(var(--fa-rotate-angle, 0deg));
+        }
     </style>
 </head>
 <body>
